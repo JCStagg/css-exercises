@@ -3,13 +3,13 @@
     background-color: rgb(240, 129, 129);
 }
 
+.oddest {
+    font-size: 34px;
+}
+
 #num2 {
     color: rgb(16, 34, 196);
     font-size: 36px;
-}
-
-#num3 {
-    font-size: 34px;
 }
 
 #num4 {
