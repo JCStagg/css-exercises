@@ -8,6 +8,7 @@
   display: grid;
   grid-template: 100px 1fr 7fr 1fr / 1fr 3fr;
   gap: 5px;
+  min-height: 100vh;
 }
 
 .container div {
@@ -90,6 +91,9 @@
 
 .article {
   background-color: #bccbde;
+  display: grid;
+  gap: 15px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
 
 .article p {
