@@ -44,6 +44,8 @@
 .sidebar {
   background-color: #FF7755;
   grid-row: 2 / 4;
+  display: grid;
+  gap: 50px;
 }
 
 .sidebar .photo {
@@ -52,6 +54,9 @@
   font-size: 12px;
   font-weight: normal;
   border-radius: 10px;
+  display: grid;
+  align-items: center;
+  justify-items: center;
 }
 
 
@@ -60,6 +65,10 @@
   color: black;
   font-size: 16px;
   font-weight: normal;
+  border-radius: 10px;
+  display: grid;
+  align-items: center;
+  justify-items: center;
 }
 
 .nav {
